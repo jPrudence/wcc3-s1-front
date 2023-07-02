@@ -1,6 +1,7 @@
 import { Box, Button, Card, CardActions, CardContent, CardMedia, Dialog, DialogActions, DialogTitle, Divider, Grid, Typography } from '@mui/material'
 import Hanampy from '../Hanampy'
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 const Fitambara = () => {
 
@@ -28,6 +29,7 @@ const Fitambara = () => {
   ]
 
   const [open, setOpen] = React.useState(false);
+  const navigate = () => window.location.href = '/'
 
   return (
     <>
@@ -102,6 +104,7 @@ const Fitambara = () => {
             color: 'grey.500',
             cursor: 'pointer',
           }}
+          onClick={() => navigate()}
         >
           HIVOAKA
         </Typography>
