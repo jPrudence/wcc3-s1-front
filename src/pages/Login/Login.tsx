@@ -3,18 +3,18 @@ import { Avatar, Box, Button, Checkbox, FormControlLabel, Grid, Link, Paper, Tex
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 
-function Copyright(props: any) {
-    return (
-        <Typography variant="body2" color="text.secondary" align="center" {...props}>
-            {'Copyright © '}
-            <Link color="inherit" href="https://mui.com/">
-                fkt-ambanilanana
-            </Link>{' '}
-            {new Date().getFullYear()}
-            {'.'}
-        </Typography>
-    );
-}
+// function Copyright(props: any) {
+//     return (
+//         <Typography variant="body2" color="text.secondary" align="center" {...props}>
+//             {'Copyright © '}
+//             <Link color="inherit" href="https://mui.com/">
+//                 fkt-ambanilanana
+//             </Link>{' '}
+//             {new Date().getFullYear()}
+//             {'.'}
+//         </Typography>
+//     );
+// }
 
 
 export default function SignInSide() {
